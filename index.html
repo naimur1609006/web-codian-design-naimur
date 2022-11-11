@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Codian</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        color: #fff;
+        font-family: sans-serif;
+      }
+
+      header {
+        background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+        overflow: hidden;
+        z-index: 1;
+      }
+
+      .header {
+        padding-left: 10vw;
+        display: flex;
+        gap: 100px;
+        justify-content: center;
+        align-items: flex-end;
+      }
+
+      .content {
+        max-width: 500px;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      p {
+        margin: 1.25rem 0 1.5625rem;
+        letter-spacing: 0.0625rem;
+        text-transform: capitalize;
+      }
+
+      a {
+        border-radius: 3.125rem;
+        background: #fff;
+        letter-spacing: 0.125rem;
+        width: 10.625rem;
+        padding: 0.9375rem 1.875rem;
+        color: #000;
+        font-size: 0.875rem;
+        text-transform: uppercase;
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        transition: all 0.3s ease;
+      }
+
+      a:hover {
+        color: #fff;
+        background: #8a2387;
+      }
+
+      img {
+        margin-top: 1.5rem;
+        width: 40%;
+      }
+
+      svg {
+        position: relative;
+        top: 5px;
+      }
+
+      /* .self {
+        width: 100%;
+        background-color: #fff;
+        height: 100px;
+        border: 1px solid green;
+      } */
+
+      @media (max-width: 1042px) {
+        .header {
+          flex-wrap: wrap;
+          justify-content: center;
+          text-align: center;
+          align-items: center;
+          padding-left: 0px;
+        }
+
+        p {
+          font-size: 0.8rem;
+          padding: 0 10px;
+          line-height: 20px;
+        }
+
+        header {
+          height: 100%;
+        }
+
+        img {
+          width: 80%;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="content">
+          <h1>WEB CODIAN</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+            similique qui quisquam labore provident assumenda ipsa, ut, neque
+            consectetur vero voluptatum et illo non officiis tempora fugit?
+            Error odit itaque provident maiores. Quae error dolore quibusdam
+            voluptas voluptates neque doloribus.
+          </p>
+
+          <a href="#">Read more</a>
+        </div>
+        <img src="images/header.png" alt="header_image" />
+      </div>
+      <svg width="120rem" height="17.25rem">
+        <path
+          fill="#fff"
+          d="M0,274c0,0,195.28-174,579.28-124s580.147-76.408,736-108C1463.28,12,1920,0,1920,0v304H0V274z"
+        ></path>
+      </svg>
+
+      <div class="self"></div>
+    </header>
+  </body>
+</html>
